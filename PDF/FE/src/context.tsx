@@ -4,7 +4,7 @@ export interface CInterface {
   pdf: File | null;
   setNumPages: (a: number) => void;
   numPages: number;
-  setPdf: (a: File) => void; // Adjust the type to match the initial state
+  setPdf: (a: File) => void;
   selectedPages: number[];
   setSelectedPages: (a: number[]) => void;
   checkedIds: number[];
@@ -27,7 +27,7 @@ export const CProvider = ({ children }: any) => {
   const [checkedIds, setCheckedIds] = useState<number[]>([]);
   const [mypdfs, setMypdfs] = useState<string[]>([]);
   let production = false;
-  let baseURL = production ? "" : "http://localhost:3000";
+  let baseURL = production ? "https://pdf-be-rs3l.onrender.com" : "http://localhost:3000";
   return (
     <>
       <myCon.Provider
