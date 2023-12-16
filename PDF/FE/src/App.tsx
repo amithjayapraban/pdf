@@ -13,6 +13,7 @@ function App() {
   // shows the menu
   function showUploadMenu() {
     setMenuShown(true);
+    if(!pdf)alert("Please load the PDF")
     document.getElementById("upload_menu")?.classList.remove("w0");
     document.getElementById("upload_menu")?.classList.add("w100");
   }

@@ -48,9 +48,9 @@ export default function PDFList() {
       </p>
       <div className="flex w-full flex-col min-h-[40dvh] px-3 rounded  max-h-[60dvh]  text-xs  overflow-scroll text-sm items-start ">
         {mypdfs &&
-          mypdfs.map((name: string) => {
+          mypdfs.map((name: string,index:any) => {
             return (
-              <button
+              <button key={index}
                 onClick={() => {
                   fetchPDF(name);
                 }}
