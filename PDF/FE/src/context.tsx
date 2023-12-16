@@ -26,7 +26,7 @@ export const CProvider = ({ children }: any) => {
   const [selectedPages, setSelectedPages] = useState<number[]>([]);
   const [checkedIds, setCheckedIds] = useState<number[]>([]);
   const [mypdfs, setMypdfs] = useState<string[]>([]);
-  let production = false;
+  let production = true;
   let baseURL = production ? "https://pdf-be-rs3l.onrender.com" : "http://localhost:3000";
   return (
     <>
