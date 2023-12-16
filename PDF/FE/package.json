@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@wojtekmaj/react-hooks": "^1.18.1",
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-pdf": "^7.6.0",
-    "@wojtekmaj/react-hooks": "^1.18.1"
+    "react-pdf": "^7.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

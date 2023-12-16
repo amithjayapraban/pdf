@@ -62,7 +62,7 @@ function App() {
           id="upload_btn"
           className=" flex items-center justify-center rounded-full aspect-square    bg-gray-500 "
         >
-          <img src="./src/assets/upload.svg" alt="upload file" />
+          <img src="./assets/upload.svg" alt="upload file" />
         </button>
 
         <button
@@ -70,7 +70,7 @@ function App() {
           id="openPdf_btn"
           className="relative flex items-center justify-center rounded-full aspect-square    bg-gray-500 "
         >
-          <img src="./src/assets/file.svg" alt="load file" />
+          <img src="./assets/file.svg" alt="load file" />
           <input
             className="absolute hidden"
             id="pdf_upload"
@@ -85,7 +85,7 @@ function App() {
           id="fetchuploads_btn"
           className=" flex items-center justify-center rounded-full aspect-square    bg-gray-500 "
         >
-          <img src="./src/assets/download.svg" alt="fetch uploads" />
+          <img src="./assets/download.svg" alt="fetch uploads" />
         </button>
       </section>
       {pdf && <Uploader />}

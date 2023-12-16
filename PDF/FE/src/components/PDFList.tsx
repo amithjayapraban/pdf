@@ -38,7 +38,7 @@ export default function PDFList() {
             document.getElementById("pdf_list")?.classList.add("hidden");
             setMypdfs([]);
           }}
-          src="./src/assets/close.svg"
+          src="./assets/close.svg"
           className="cursor-pointer"
           alt="close"
         />
