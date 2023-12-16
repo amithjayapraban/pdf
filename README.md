@@ -20,25 +20,21 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About 
-View. Edit. Upload. 
+
+
 ## Tech Stack
 - React.js | HTML | Tailwind
 - Express JS 
 
-### Screenshot
+### Screenshots
 
 
 <div align="left">
-<img src="/Screenshots/ss1.png" height="300" width="300"  />
-  <img src="/Screenshots/ss2.png" height="300"  />
+<img src="https://github.com/amithjayapraban/pdf/assets/89343885/6881553b-f34d-48a2-af80-a4c5335aa55f" height="300"  />
+  
+  <img src="https://github.com/amithjayapraban/pdf/assets/89343885/b94a4058-bff6-4572-b291-79619d14cc30" height="300"  />
+ 
 </div>
-
-
-
-
-
-
 
 
 ## Getting Started
