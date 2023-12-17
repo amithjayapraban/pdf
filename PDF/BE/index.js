@@ -6,7 +6,10 @@ import { PDFDocument } from "pdf-lib";
 
 const PORT = 3000;
 const app = express();
-app.use(cors());
+let corsOptions = { 
+   origin : ['https://pdf-be-rs3l.onrender.com'], 
+} 
+app.use(cors(corsOptions));
 
 const storage = multer.memoryStorage();
 const temp = multer({ storage });
