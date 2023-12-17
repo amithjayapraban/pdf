@@ -7,7 +7,7 @@ import { PDFDocument } from "pdf-lib";
 const PORT = 3000;
 const app = express();
 let corsOptions = { 
-   origin : ['https://pdf-be-rs3l.onrender.com'], 
+   origin : ['https://pdf-be-rs3l.onrender.com',"http://localhost:5173"], 
 } 
 app.use(cors(corsOptions));
 app.use((req, res, next) => {
