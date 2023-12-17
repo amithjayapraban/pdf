@@ -11,7 +11,7 @@
 <h3 align="center">PDF viewer</h3>
 
 [Deployment](https://pdfv.vercel.app/) <sup>*</sup> <br>
-<sub><sup><sup></sup>*Backend hosted on a free service; expect a small delay on the first API request.</sup></sub>
+<sub><sup><sup></sup>*Backend hosted on a free service with limited RAM. Please use smaller files.</sup></sub>
   
 </div>
 
